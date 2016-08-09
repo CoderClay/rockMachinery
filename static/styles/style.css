@@ -1,0 +1,58 @@
+.logo-top {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+#search-text {
+  margin-top: 10px;
+}
+#search-submit{
+  margin-top: 10px;
+}
+
+#banner-mast {
+  position: relative;
+  width: 100vw;
+}
+#banner-mast-phrase {
+  display: block;
+}
+
+#banner-text {
+  z-index: 5;
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 25vw;
+  margin-bottom: ;
+  }
+
+
+#big-box {
+  margin: 0 auto;
+}
+
+#tri-div {
+  margin: 0 auto;
+  background-color: white;
+  height: 300px;
+
+}
+#tri-div-2 {
+  margin: 0 auto;
+  background-color: ;
+  height: 300px;
+}
+#icon-truck {
+  margin-left: 10px;
+  margin-top: 15%
+}
+#icon-building {
+  margin-left: 10px;
+  margin-top: 15%;
+}
+#sales-div {
+  width: 100vw;
+  height: 300px;
+  background-color: grey;
+}

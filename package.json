@@ -1,0 +1,15 @@
+{
+  "name": "rock-node-test",
+  "version": "1.0.0",
+  "description": "A test version for deployment to heroku.",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log(\"Hello\")"
+  },
+  "author": "Clay Allen",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  }
+}

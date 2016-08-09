@@ -43,6 +43,6 @@ app.get('/equipment', function(req, res) {
 
 
 
-app.listen(1337, function () {
-  console.log("1337 Up and Running Sir!");
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

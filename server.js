@@ -3,6 +3,10 @@ var app = express();
 var path = require('path');
 
 
+app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.static(path.join(__dirname, 'views')));
+
+
 app.set('view engine', 'ejs');
 //Sets the view engine to ejs for partials
 
@@ -16,12 +20,8 @@ app.get('/equipment', function(req, res) {
 })
 
 // app.get('/', function (req, res) {
-//   res.sendFile(path.join(__dirname + '/index.html'));
+//   res.sendFile(path.join(__dirname + '/index.ejs'));
 // });
-
-app.use(express.static(path.join(__dirname, 'static')));
-app.use(express.static(path.join(__dirname, 'views')));
-
 
 
 

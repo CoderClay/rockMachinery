@@ -53,6 +53,25 @@
 }
 #sales-div {
   width: 100vw;
-  height: 300px;
+  height: 12vh;
   background-color: grey;
+}
+
+
+.footer-outter {
+  height: 75px;
+  width: 100vw;
+  background-color: navy;
+}
+#footer-menu ul li{
+  list-style-type: none;
+  color: white;
+}
+.sub-head {
+  color: white;
+}
+.clay-copyright {
+  margin-top: 30px;
+  float: right;
+  color: white;
 }

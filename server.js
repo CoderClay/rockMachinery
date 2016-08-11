@@ -1,8 +1,11 @@
 var express = require('express');
-var app = express();
+var favicon = require('serve-favicon');
 var path = require('path');
 
+var app = express();
 
+
+app.use(favicon(path.join(__dirname, 'static/images', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'static')));
 app.use(express.static(path.join(__dirname, 'views')));
 
@@ -22,6 +25,24 @@ app.get('/equipment', function(req, res) {
 // app.get('/', function (req, res) {
 //   res.sendFile(path.join(__dirname + '/index.ejs'));
 // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
